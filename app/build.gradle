@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    compileOptions.encoding = 'windows-1252'
+
+    defaultConfig {
+        applicationId "com.jschdev.mivideo"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile files('libs/jcodec-0.1.9.jar')
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'me.drakeet.materialdialog:library:1.2.2'
+    compile 'com.sothree.slidinguppanel:library:3.2.0'
+    compile 'net.steamcrafted:materialiconlib:1.0.5'
+    compile 'com.isseiaoki:simplecropview:1.0.11'
+    compile 'ch.acra:acra:4.6.2'
+    compile 'cat.ereza:customactivityoncrash:1.4.0'
+    compile 'com.github.bumptech.glide:glide:3.5.2'
+    compile 'com.android.support:support-v4:23.0.0'
+    compile('com.mikepenz:aboutlibraries:5.3.4@aar') {
+        transitive = true
+    }
+}

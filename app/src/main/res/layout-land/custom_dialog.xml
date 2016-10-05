@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="300dp">
+
+            <com.isseiaoki.simplecropview.CropImageView
+                android:id="@+id/myPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                custom:backgroundColor="@color/background_material_dark"
+                custom:cropEnabled="true"
+                custom:cropMode="RATIO_FREE"
+                custom:frameColor="@android:color/white"
+                custom:frameStrokeWeight="10dp"
+                custom:guideColor="#BBFFFFFF"
+                custom:guideShowMode="not_show"
+                custom:guideStrokeWeight="1dp"
+                custom:handleColor="@android:color/white"
+                custom:handleShowMode="show_always"
+                custom:handleSize="8dp"
+                custom:imgSrc="@mipmap/ic_launcher"
+                custom:overlayColor="#66000000"
+                custom:touchPadding="0dp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="#60000000"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/relative_editar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#60000000">
+
+
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:id="@+id/btn_delete"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_alignParentLeft="true"
+                        android:scaleType="center"
+                        app:materialIcon="delete"
+                        app:materialIconColor="@color/white"
+                        app:materialIconSize="24dp" />
+
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:id="@+id/btn_open_photo"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_toRightOf="@+id/btn_delete"
+                        android:scaleType="center"
+                        app:materialIcon="open_in_new"
+                        app:materialIconColor="@color/white"
+                        app:materialIconSize="24dp" />
+
+
+                    <TextView
+                        android:id="@+id/tituloDialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center_vertical|center"
+                        android:paddingTop="2dp"
+                        android:text="20159001"
+                        android:textColor="@color/white" />
+
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:id="@+id/btn_editar_cancel"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_alignParentRight="true"
+                        android:scaleType="center"
+                        android:visibility="gone"
+                        app:materialIcon="close_box"
+                        app:materialIconColor="@color/white"
+                        app:materialIconSize="24dp" />
+
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:id="@+id/btn_editar"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_alignParentRight="true"
+                        android:scaleType="center"
+                        app:materialIcon="pencil"
+                        app:materialIconColor="@color/white"
+                        app:materialIconSize="24dp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:id="@+id/relative_rotate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#60000000">
+
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:id="@+id/btn_rotate_left"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_alignParentLeft="true"
+                        android:scaleType="center"
+                        app:materialIcon="rotate_3d"
+                        app:materialIconColor="@color/white"
+                        app:materialIconSize="24dp" />
+
+                    <net.steamcrafted.materialiconlib.MaterialIconView
+                        android:id="@+id/btn_rotate_right"
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_alignParentRight="true"
+                        android:scaleType="center"
+                        app:materialIcon="rotate_right"
+                        app:materialIconColor="@color/white"
+                        app:materialIconSize="24dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center"
+            android:gravity="center_horizontal|center"
+            android:orientation="vertical">
+
+            <net.steamcrafted.materialiconlib.MaterialIconView
+                android:id="@+id/btn_camera"
+                android:layout_width="48dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:scaleType="center"
+                app:materialIcon="camera"
+                app:materialIconColor="@color/primary"
+                app:materialIconSize="24dp" />
+
+            <net.steamcrafted.materialiconlib.MaterialIconView
+                android:id="@+id/btn_importar"
+                android:layout_width="48dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:scaleType="center"
+                app:materialIcon="file"
+                app:materialIconColor="@color/primary"
+                app:materialIconSize="24dp" />
+
+            <net.steamcrafted.materialiconlib.MaterialIconView
+                android:id="@+id/btn_cancel"
+                android:layout_width="48dp"
+                android:layout_height="100dp"
+                android:background="@color/white"
+                android:scaleType="center"
+                app:materialIcon="content_save"
+                app:materialIconColor="@color/primary"
+                app:materialIconSize="24dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

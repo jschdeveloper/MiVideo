@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="red">#ffff0000</color>
+
+    <color name="primary">#ff195693</color>
+    <color name="primary_dark">#ff195693</color>
+    <color name="accent">#FFF</color>
+    <color name="bar_color">#BBDEFB</color>
+    <color name="windows_color">#FFF</color>
+    <color name="text_color">#ff326cdd</color>
+    <color name="pink">#fff45bbe</color>
+    <color name="pink_pressed">#fff4bcc9</color>
+
+
+
+    <color name="primary_act">#4CAF50</color>
+    <color name="primary_dark_act">#1BE520</color>
+    <color name="accent_act">#FFF</color>
+    <color name="bar_color_act">#C8E6C9</color>
+    <color name="windows_color_act">#FFF</color>
+    <color name="text_color_act">#4CAF50</color>
+    <color name="fondo_texto">#66000000</color>
+
+
+    <color name="blue">#00abea</color>
+
+</resources>

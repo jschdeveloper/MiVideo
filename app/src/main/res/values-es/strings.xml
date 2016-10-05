@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Mis Días</string>
+
+    <string name="domingo">D</string>
+    <string name="lunes">L</string>
+    <string name="martes">M</string>
+    <string name="miercoles">Mi</string>
+    <string name="jueves">J</string>
+    <string name="viernes">V</string>
+    <string name="sabado">S</string>
+    <string name="mes_actual">mes actual</string>
+
+    <string name="txt_hacer_video">Hacer video</string>
+    <string name="titulo_confirmar_dialog">Confirmar</string>
+    <string name="msj_salida">¿Seguro que desea salir?</string>
+    <string name="msj_delete_video">¿Seguro que desea eliminar el video?</string>
+    <string name="msj_delete_imagen">¿Seguro que desea eliminar la imagen?</string>
+
+    <string name="txt_boton_cancel">Cancel</string>
+    <string name="txt_nombre_video">Nombre video</string>
+    <string name="txt_no_hay_videos">No hay videos hasta el momento</string>
+    <string name="txt_no_hay_fotos">No hay fotos hasta el momento</string>
+
+
+
+    <string name="toast_txt_nombre">Es necesario ingresar un nombre</string>
+    <string name="toast_error_borrar">No se pudo borrar el archivo </string>
+    <string name="toast_error_video">Error al cargar el video </string>
+    <string name="toast_exito_borrar">Se elimino con éxito </string>
+    <string name="toast_exito_imagen">Se guardo correctamente la imagen </string>
+    <string name="toast_error_imagen">Hubo un problema al guardar la imagen</string>
+    <string name="toast_nombre_requerido">Es necesario ingresar un nombre</string>
+    <string name="toast_creo_directorio">Se creo directorio</string>
+    <string name="toast_sin_imagenes">No hay imágenes para crear el video.</string>
+    <string name="toast_ocurrio_problema">Ocurrio un problema, no se pudo generar el video.</string>
+    <string name="toast_fin_descarga">Se finalizo la descarga.</string>
+    <string name="txt_generando_video">Por favor espere</string>
+    <string name="txt_cargando">Procesando..</string>
+    <string name="btn_cerrar">Cerrar</string>
+
+
+    <string name="id_calendario">Calendario</string>
+    <string name="id_galeria">Galeria</string>
+    <string name="id_video">Videos</string>
+    <string name="nombre_archivo_temporal">image.temp</string>
+    <string name="nombre_carpeta_temporal">temp</string>
+
+    <string name="txt_menu_compartir">Compartir</string>
+    <string name="txt_menu_eliminar">Eliminar</string>
+    <string name="txt_seleccione_opcion">Compartir con...</string>
+    <string name="title_activity_new_galeria">newGaleria</string>
+
+    <string name="txt_archivo_no_soportado">archivo no soportado </string>
+    <string name="crash_toast_text">La aplicación fallo, intenteremos solucionarlo</string>
+    <string name="txt_menu_opciones">Opciones</string>
+    <string name="txt_activity_config">Configuración</string>
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">A ocurrido un error inesperado.
+        \nAyudanos a solucionar el problema, enviando el correo que aparecera al cerrar la aplicación.</string>
+    <string name="customactivityoncrash_error_activity_unknown_exception">Excepcion desconocida</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Reiniciar app</string>
+    <string name="customactivityoncrash_error_activity_close_app">Cerrar app</string>
+    <string name="customactivityoncrash_error_activity_error_details">Detalles del error</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Detalles del error</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Cerrar</string>
+    <string name="customactivityoncrash_error_activity_error_details_copy">Copiar</string>
+    <string name="customactivityoncrash_error_activity_error_details_copied">Copiado</string>
+    <string name="customactivityoncrash_error_activity_error_details_clipboard_label">Información del error</string>
+    <string name="aboutLibraries_description_text">Mis días es una aplicación que desea ayudarte a hacer un seguimiento de momentos importantes \n Contact: jchdeveloper@gmail.com</string>
+    <string name="txt_contacto">Contacto</string>
+    <string name="txt_librerias">Library</string>
+    <string name="txt_acerca">Acerca</string>
+    <string name="lista_librerias">Librerias utilizadas: jcodec, floatingactionbutton, picasso, materialdialog, slidinguppanel, materialiconlib, acra, customactivityoncrash, aboutlibraries.</string>
+    <string name="txt_compartir_texto">Acaban de compartir una foto con la aplicación</string>
+
+
+</resources>

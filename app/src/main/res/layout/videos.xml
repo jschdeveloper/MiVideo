@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_video"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relativePrincipal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true">
+
+            <ListView
+                android:id="@+id/listaVideos"
+                style="@style/ListFont"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:choiceMode="singleChoice"
+                android:divider="@color/primary_act"
+                android:dividerHeight="1px"
+                android:drawSelectorOnTop="false"
+                android:listSelector="@drawable/list_selector" />
+
+            <TextView
+                android:id="@+id/empty1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/listaVideos"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:text="@string/txt_no_hay_videos"
+                android:textColor="@color/primary"
+                android:textSize="16sp" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/doVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="16dp"
+                fab:fab_colorNormal="@color/primary_act"
+                fab:fab_colorPressed="@color/bar_color_act"
+                fab:fab_icon="@drawable/ic_add" />
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+</android.support.design.widget.CoordinatorLayout>
